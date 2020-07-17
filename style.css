@@ -60,6 +60,10 @@ h1,h2,h3{
  	margin:20px;
  }
 
+ #card-space {
+ 	padding:30px 0;
+ }
+
  .btn-blue{
 	color: white;
 	background-color: rgb(45,44,52);
@@ -126,4 +130,25 @@ h1,h2,h3{
 .list-inline i:hover{
 	font-size:40px;
 	color:#3b6978;
+}
+
+@media (max-width: 960px) {
+	/* For a screen <960px, this CSS will be read*/
+	.container {
+		width:700px;
+	}
+}
+
+@media (max-width: 720px) {
+	/* For a screen <7200px, this CSS will be read*/
+	.container {
+		width:500px;
+	}
+}
+
+@media (max-width: 540px) {
+	/* For a screen <540px, this CSS will be read*/
+	.container {
+		width:300px;
+	}
 }
